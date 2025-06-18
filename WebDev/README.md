@@ -12,10 +12,10 @@ This domain will help you master the art of creating stunning, responsive, and f
 Web-Dev/
 ├── Assignment-1/
 │   ├── questions.md
-│   └── [Your submission files]
+│   └── [Your submission folder]
 ├── Assignment-2/
 │   ├── questions.md
-│   └── [Your submission files]
+│   └── [Your submission folder]
 └── ...
 ```
 
