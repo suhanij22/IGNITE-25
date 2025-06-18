@@ -1,6 +1,6 @@
 # 🚀 IGNITE'25 - Assignment Submissions
 
-Welcome to **IGNITE'25**, the official tech program run by [Your Club Name]!  
+Welcome to **IGNITE'25**, the official tech program run by Programming and Tech Skills Club.  
 This repository is your one-stop destination to find, complete, and submit assignments from various technical domains.
 
 ---
@@ -48,7 +48,7 @@ IGNITE-25/
 
 Each assignment folder contains:
 - ✅ A `questions.md` file with the task(s)
-- 🗂️ A space where **you will create your own folder** to submit your work
+- 🗂️ A space where **you will create your own folder**  to submit your work
 
 ---
 
@@ -81,7 +81,19 @@ cd Web-Dev/Assignment-1
 
 ---
 
-### 4. **Write your  code**
+### 4. **Create a Folder with Your Name**
+
+Use your `NAME_ROLLNO` as the folder name:
+
+```bash
+mkdir "NAME_ROLLNO"
+```
+
+Add your code files, assets, and README (if needed) inside this folder.
+
+---
+
+### 5. **Write your  code**
 
 
 
@@ -90,7 +102,7 @@ Add your code files, assets, and README (if needed) inside this folder.
 
 ---
 
-### 5. **Push Your Changes**
+### 6. **Push Your Changes**
 
 ```bash
 git add .
@@ -100,7 +112,7 @@ git push origin main  # Or push to a new branch if preferred
 
 ---
 
-### 6. **Create a Pull Request (PR)**
+### 7. **Create a Pull Request (PR)**
 
 1. Go to your forked repo on GitHub
 2. Click on **"Compare & Pull Request"**
@@ -131,7 +143,7 @@ git push origin main  # Or push to a new branch if preferred
 ## 🤝 Need Help?
 
 - 💬 Use GitHub Issues for technical questions
-- 📧 Contact mentors through [your preferred communication channel]
+- 📧 Contact mentors through whatsapp for 1:1 help
 
 ---
 
