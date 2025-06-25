@@ -1,8 +1,8 @@
 # 🧑‍💻 JavaScript Assignment – DOM Manipulation + Mini Projects
 
-📅 Deadline: Submit by Sunday via Pull Request
-📝 Note: This assignment is meant to reinforce concepts and apply your learnings thorugh mini-projects.
-🚫 Do not use ChatGPT or AI tools to solve the assignment.
+> 📅 **Deadline**: Submit by **Saturday** via Pull Request  
+> 📝 **Note**: This assignment is meant to reinforce concepts before moving to mini-projects.  
+> 🚫 **Do not use ChatGPT or AI tools to solve the assignment.**
 
 ---
 
