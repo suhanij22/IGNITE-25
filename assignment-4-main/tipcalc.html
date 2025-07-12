@@ -7,25 +7,21 @@
     <link rel="stylesheet" href="tipcalc.css">
 </head>
 <body>
-    <h1><u>tip calculator</u></h1>
-    <div class="div1">
-  <div class="div2">  
-    <h3>Enter bill price-</h3>
-    <input placeholder="Enter bill price here" class="bill">
+    <div class="main">
+        <div class="box">
+            <u><h2>TIP CALCULATOR</h2></u>
+            <div class="t1">enter your bill price here:</div>
+            <br>
+           <div class="i1"> <input placeholder="bill price" class="input1"></div>
+            <br>
+            <div class="t2">enter your tip percentage here:</div>
+            <br>
+         <div class="i2"> <input placeholder="tip percent" class="input2"></div>  
+         <br>
+         <br>
+           <div class="enter"> <button class="enter1">ENTER</button></div>
+        </div>
     </div>
-
-    <div class="div3">
-    <h3>Enter tip here-</h3>
-    <input placeholder="Enter tip here" class="tip" onkeydown="if(event.key==='Enter')
-    {
-        tipcalc();
-    }">
-    </div>
-   <button class="enter" onclick="tipcalc();">ENTER</button>
-  
-    </div>
-    <p class="display"></p>
-    <p class="thank"></p>  
     <script src="tipcalc.js"> </script>
 </body>
 </html>
