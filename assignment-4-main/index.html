@@ -21,7 +21,7 @@
     {
         addlist();
     }" >
-    <button class="b3" onclick="addlist();">add</button>
+    <button class="b3">add</button>
     <ul class="list">
     </ul>
 
@@ -48,8 +48,7 @@
         <input type="submit" value="submit" class="submit" >
     </form>
 
-    <h3>Q6.</h3>
-    <button class="back" id="back" onclick="changeback();">change background</button>
+    
 
 
     <script>
@@ -111,17 +110,6 @@ function addlist(){
     console.log(todo);
     todoname.value='';
     rendertodo();
-}
- let iscolor=false;
-function changeback(){
-   
-    if(iscolor){
-    document.body.style.backgroundColor=``;
-    }
-    else{
-       document.body.style.backgroundColor=`rgb(230, 83, 137)`; 
-}
-iscolor=!iscolor;
 }
 
 function imagechange(){
