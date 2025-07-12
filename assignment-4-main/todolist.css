@@ -1,57 +1,53 @@
 body{
-    background-image: url('https://res.cloudinary.com/imagist/image/fetch/q_auto,f_auto,c_scale,w_2624/https%3A%2F%2Fwww.todoist.com%2Fstatic%2Fproduct-ui%2Fbackgrounds%2Fwave-two-red.png');
-    background-size: cover;
-    background-position: center;
-     background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
       height: 100vh;
-      margin: 0;
       display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-image: url('https://res.cloudinary.com/imagist/image/fetch/q_auto,f_auto,c_scale,w_2624/https%3A%2F%2Fwww.todoist.com%2Fstatic%2Fproduct-ui%2Fbackgrounds%2Fwave-two-red.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+ .box {
+      width: 350px;
+      height: 350px;
+      background-color: rgba(240, 128, 128, 0.59);
+      border-radius: 15px;
+    }
+.div1{
+    text-align: center;
+    position: relative;
+    top: 7px;
 }
-.main{
-    height: 350px;
-    width: 350px;
-    background-color: rgba(222, 11, 117, 0.073);
-    border-radius: 25px;
+.input1{
+    text-align: center;
+    font-size: large;
+}
+.name{
+    width: 230px;
+    height: 22px;
+    border: none;
+    border-radius: 2px;
+}
+.add{
+    height: 22px;
+    border: none;
+    width: 50px;
+    margin-left: 4px;
+    border-radius: 2px;
+    background-color: rgb(225, 101, 101);
+    color: white;
 }
 .text{
     display: grid;
-    grid-template-columns: 267px 100px;
-    row-gap: 5px;
-    position: absolute;
-    top: 222px;
-    left: 437px;
-    
+    grid-template-columns: 246px 100px;
+    margin-left: 24px;
 }
 .delete{
-    
-    width: 46px;
-    padding: 1px;
-    background-color: rgba(181, 79, 133, 0.443);
-    border: 1px solid black;
-
-}
-.add{
-    width: 45px; height: 26px;
-    background-color: rgb(220, 21, 117);
-    border: 1px solid black;
-    padding: 2px;
-    position: absolute;
-    top: 183px;
-    left: 705px;
-    color: white;
-}
-
-.name{
-   
-    height: 22px;
-    width: 250px;
-    position: absolute;
-    left: 440px;
-}
-h1{
-    position: relative;
-    left: 80px;
+    border: none;
+    margin: 3px;
+    border-radius: 2px;
+    background-color: rgb(249, 212, 218);
 }

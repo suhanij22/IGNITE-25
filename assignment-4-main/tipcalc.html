@@ -8,19 +8,25 @@
 </head>
 <body>
     <div class="main">
-        <div class="box">
-            <u><h2>TIP CALCULATOR</h2></u>
-            <div class="t1">enter your bill price here:</div>
-            <br>
-           <div class="i1"> <input placeholder="bill price" class="input1"></div>
-            <br>
-            <div class="t2">enter your tip percentage here:</div>
-            <br>
-         <div class="i2"> <input placeholder="tip percent" class="input2"></div>  
-         <br>
-         <br>
-           <div class="enter"> <button class="enter1">ENTER</button></div>
-        </div>
+   <div class="head"><h1>tip calculator</h1></div> 
+    <div class="div1">
+  <div class="div2">  
+    Enter bill price-<br>
+  <div class="bill1"><input placeholder="Enter bill price here" class="bill"></div>  
+    </div>
+
+    <div class="div3">
+    Enter tip here-<br>
+   <div class="bill1"><input placeholder="Enter tip here" class="tip" onkeydown="if(event.key==='Enter')
+    {
+        tipcalc();
+    }"></div> 
+    </div>
+  <div class="button"><button class="enter" onclick="tipcalc();">ENTER</button></div> 
+    <div class="text">
+    <p class="display"></p>
+    <p class="thank"></p>  
+    </div>
     </div>
     <script src="tipcalc.js"> </script>
 </body>
